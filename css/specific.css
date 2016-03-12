@@ -1,22 +1,16 @@
-/*.post-teaser {
+.post-teaser {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-}*/
+  font-size: 1.25em;
+  padding: 5% 20%;
+  width: 100%;
+  margin-bottom: 0;
+  display: inline-block;
+  /*background-size: $feature-image-size;*/
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 
-.posts {
-  .post-teaser {
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    font-size: 1.25em;
-    padding: 5% 20%;
-    width: 100%;
-    margin-bottom: 0;
-    display: inline-block;
-    /*background-size: $feature-image-size;*/
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  .excerpt {
-    margin-top: 1em;
-  }
+.excerpt {
+  margin-top: 1em;
 }
 
 .feature-image {
