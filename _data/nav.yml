@@ -1,5 +1,12 @@
-- title: "home"
+- title: "Головна"
   href: "/"
 
-- title: "blog"
+- title: "Статті"
   href: "/blog/"
+
+- title: "Розробки уроків"
+  subcategories:
+    - subtitle: "Українська мова"
+      subhref: "/documentation/sass.html"
+    - subtitle: "Українська література"
+      subhref: "/documentation/grid.html"
