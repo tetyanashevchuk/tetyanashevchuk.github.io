@@ -4,7 +4,7 @@ title: blog
 permalink: /blog/
 ---
 
-{% if paginator.total_pages != 1 %}
+{% if paginator.total_pages > 1 %}
 <div>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
