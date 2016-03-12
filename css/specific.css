@@ -1,7 +1,10 @@
+.posts {
+  padding: 2% 5%;
+}
 .post-teaser {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 1.35em;
-  padding: 5% 5%;
+  padding: 5% 20%;
   width: 100%;
   margin-bottom: 0;
   display: inline-block;
