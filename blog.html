@@ -44,4 +44,8 @@ permalink: /blog/
     <span>Next &raquo;</span>
   {% endif %}
 </div>
+{% elsif  paginator.total_pages == 1}
+<p>
+  1 page
+</p>
 {% endif %}
