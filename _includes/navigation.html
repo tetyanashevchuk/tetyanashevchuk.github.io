@@ -14,10 +14,6 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <!-- entry without subcategory -->
-        <li class="active"><a href="http://www.google.com">google test<span class="sr-only">(current)</span></a></li>
-
-
         <!-- entry with subcategory -->
         {% for nav in site.data.nav %} {% if nav.subcategories != null %}
         <li class="dropdown">
