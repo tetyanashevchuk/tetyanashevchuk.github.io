@@ -20,9 +20,9 @@ destination: _site
 paginate: 2
 paginate_path: "/blog/page:num"
 
-sass:
-  sass_dir: _sass
-  style: :compressed
+# sass:
+#   sass_dir: _sass
+#   style: :compressed
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
