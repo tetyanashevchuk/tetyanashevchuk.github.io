@@ -16,6 +16,6 @@ header_large: images/banner-large.jpg
 header_xl: images/banner-xl.jpg
 
 destination: _site
-permalink: /blog/:year/:title
-paginate: 5
+#permalink: /blog/:year/:title
+paginate: 2
 paginate_path: "/blog/page:num"
