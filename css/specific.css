@@ -2,3 +2,16 @@
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 1.25em;
 }
+
+.button {
+  border-radius: 0.3em;
+  border: 1px solid;
+  display: inline-block;
+  margin: 1em 0;
+  padding: 0.5em 0.75em;
+}
+a.button:hover {
+  background: #5291AA;
+  color: #f2f2f2;
+  text-decoration: none;
+}
