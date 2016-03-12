@@ -1,10 +1,6 @@
----
-layout: page
-title: blog
-permalink: /blog/
----
+--- layout: page title: blog permalink: /blog/ ---
 
-<div>
+<!-- <div>
 
   <ul>
     {% for post in site.posts %}
@@ -18,4 +14,26 @@ permalink: /blog/
     {% endfor %}
   </ul>
 
+</div> -->
+
+<div class="posts">
+  {% for post in site.posts %}
+  <div class="post-teaser">
+
+    <header>
+      <h1>
+          <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h1>
+
+      <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+    </header>
+
+    <div class="excerpt">
+      {{ post.excerpt }}
+
+      <a class="button" href="{{ site.baseurl }}{{ post.url }}">{{ site.theme.str_continue_reading }}</a>
+    </div>
+
+  </div>
+  {% endfor %}
 </div>
