@@ -17,3 +17,4 @@ header_xl: images/banner-xl.jpg
 
 destination: _site
 permalink: /blog/:year/:title
+paginate: 5
