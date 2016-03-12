@@ -19,3 +19,19 @@ destination: _site
 #permalink: /blog/:year/:title
 paginate: 2
 paginate_path: "/blog/page:num"
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: Rohan Chandra
+  avatar:
+  description: "My blog on Github" # used by search engines
+
+  # Header and footer text
+  header_text:
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
