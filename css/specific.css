@@ -19,6 +19,25 @@
   }
 }
 
+.feature-image {
+  padding: 0%;
+  .post-link {
+    color: #fff;
+  }
+  header {
+    color: #fff;
+    /*background-size: cover;*/
+    margin-bottom: 0;
+    padding: 20/2.5 20;
+    .meta {
+      color: rgba(#fff, .7);
+    }
+  }
+  .post-content {
+    padding: 5% 20%;
+  }
+}
+
 .button {
   border-radius: 0.3em;
   border: 1px solid;
