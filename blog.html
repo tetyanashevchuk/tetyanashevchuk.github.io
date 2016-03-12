@@ -6,13 +6,13 @@ permalink: /blog/
 
 <div>
 
-  <ul class="">
+  <ul>
     {% for post in site.posts %}
       <li>
-        <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="" href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}
