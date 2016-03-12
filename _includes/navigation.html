@@ -14,16 +14,38 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="http://www.google.com">google<span class="sr-only">(current)</span></a></li>
-        <li><a href="http://www.google.com">Google 2</a></li>
+        <!-- entry without subcategory -->
+        <li class="active"><a href="http://www.google.com">google test<span class="sr-only">(current)</span></a></li>
+
+
+        <!-- entry with subcategory -->
+        {% for nav in site.data.nav %} {% if nav.subcategories != null %}
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="{{ site.baseurl }}{{ nav.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.title }}<span class="caret"></span></a>
+          <!-- menu values -->
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            {% for subcategory in nav.subcategories %}
+            <li><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+            {% endfor %}
           </ul>
         </li>
+        {% elsif nav.external-subcategories != null %}
+        <li class="dropdown">
+          <a href="{{ site.url }}{{ nav.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.title }}<span class="caret"></span></a>
+          <!-- menu values -->
+          <ul class="dropdown-menu">
+            {% for subcategory in nav.external-subcategories  %}
+            <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% elsif nav.title == page.title %}
+        <li class="active"><a href="{{ nav.href }}">{{ nav.title }}<span class="sr-only">(current)</span></a></li>
+        {% else %} {% if nav.href %}
+        <li class="active"><a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}<span class="sr-only">(current)</span></a></li>
+        {% elsif nav.external %}
+        <li class="active"><a href="{{ nav.external }}">{{ nav.title }}<span class="sr-only">(current)</span></a></li>
+        {% endif %} {% endif %} {% endfor %}
       </ul>
 
     </div><!-- /.navbar-collapse -->
