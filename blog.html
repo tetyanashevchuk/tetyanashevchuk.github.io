@@ -4,23 +4,7 @@ title: blog
 permalink: /blog/
 ---
 
-<!-- <div>
-
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-</div> -->
-
-{% if paginator.total_pages > 1 %}
+{% if paginator.total_pages != 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
@@ -43,13 +27,20 @@ permalink: /blog/
   {% else %}
     <span>Next &raquo;</span>
   {% endif %}
-</div>
-{% elsif  paginator.total_pages == 1}
-<p>
-  1 page
-</p>
 {% else %}
-<p>
-  0 pages
-</p>
+<div>
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
 {% endif %}
