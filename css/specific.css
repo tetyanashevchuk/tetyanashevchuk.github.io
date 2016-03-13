@@ -6,6 +6,10 @@
   padding: 2% 2%;
 }
 
+.recent-posts ul li {
+  padding: 30px;
+  margin-bottom: 2em;
+}
 
 .post-teaser {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
