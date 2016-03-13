@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Octopress 3.0 / Jekyll Basic Customization"
-tags: jekyll liquid blogging
+tags: [justLooooongTag]
 date: 2014-11-28T16:44:01-08:00
 ---
 
