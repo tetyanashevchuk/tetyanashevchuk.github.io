@@ -96,7 +96,7 @@ a.button:hover {
   font-size: 39px;
   line-height: 1.6;
   color: #f5f5f5;
-  text-shadow: -1px 0 #d01040, 0 1px #d01040, 1px 0 #d01040, 0 -1px #d01040;
+  text-shadow: -2px 0 #7D001F, 0 2px #7D001F, 2px 0 #7D001F, 0 -2px #7D001F;
 }
 
 /*.homeImageLink span {
