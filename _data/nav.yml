@@ -4,6 +4,9 @@
 - title: "Статті"
   href: "/blog/"
 
+- title: "Теги"
+  href: "/tags/"
+
 - title: "Розробки уроків"
   subcategories:
     - subtitle: "Українська мова"
