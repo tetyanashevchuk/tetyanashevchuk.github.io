@@ -82,3 +82,26 @@ a.button:hover {
   color: #f2f2f2;
   text-decoration: none;
 }
+
+/*header image*/
+.homeImageLink {
+   position: absolute;
+   top: 45%;
+   left: 0;
+   text-align: center;
+   width: 100%;
+}
+
+.homeImageLink span {
+	color: red;
+	font-weight: 300;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	pointer-events: none;
+
+}
+
+.img-container {
+  position:relative;
+}
