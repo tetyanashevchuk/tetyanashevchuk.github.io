@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Go"
-tags: [language, literature]
+tags: [language, "my literature"]
 date: 2014-11-29T16:44:01-08:00
 ---
 
