@@ -6,7 +6,7 @@ permalink: /blog/
 <div class="home">
   <h2>Tags</h2>
   <ul class="tags">
-    {% for tag in page.tags %}
+    {% for tag in site.tags %}
       <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
     {% endfor %}
   </ul>
