@@ -1,0 +1,8 @@
+.epigraph {
+  text-align: right;
+  font-style: italic;
+}
+
+p.epigraph {
+  margin-bottom: 0em;
+}
