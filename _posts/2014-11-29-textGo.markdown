@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Go"
+tags: jekyll liquid blogging
 date: 2014-11-29T16:44:01-08:00
 ---
 

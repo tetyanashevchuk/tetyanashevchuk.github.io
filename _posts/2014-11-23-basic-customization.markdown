@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Octopress 3.0"
+tags: jekyll liquid blogging
 date: 2014-11-23T16:44:01-08:00
 ---
 
