@@ -1,3 +1,7 @@
+.main-page-layout {
+  padding: 5%
+}
+
 .post-content {
   padding: 2% 5%;
 }
@@ -13,7 +17,7 @@
 }
 
 .recent-posts {
-  padding: 30px;
+  padding: 3px;
   margin-bottom: 2em;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 1.20em;
