@@ -8,12 +8,6 @@ title: home
   Text example 123
 </p>
 
-<ul class="tags">
-{% for tag in post.tags %}
-  <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
-{% endfor %}
-</ul>
-
 {% include asides/recent_posts.html %}
 
 </article>
