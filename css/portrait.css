@@ -1,6 +1,7 @@
 .epigraph {
   text-align: right;
   font-style: italic;
+  margin-bottom: 5px;
 }
 
 .epigraph p {
