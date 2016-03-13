@@ -1,9 +1,9 @@
-<aside style="float: right;">
-  <h2 class="post-teaser">Recent Posts</h2>
+<aside style="float: right;" class="recent-posts">
+  <h2>Recent Posts</h2>
   <ul>
     {% for post in site.posts limit:5 site.recent_posts %}
       <li>
-        <a class="post-content" href="{{ site.baseurl }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
       </li>
     {% endfor %}
   </ul>
