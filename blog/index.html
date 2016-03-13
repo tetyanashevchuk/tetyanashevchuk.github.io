@@ -20,13 +20,12 @@ permalink: /blog/
 </div> -->
 
 <div class="home">
-  <ul class="tags">
-{% for tag in post.tags %}
-  <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
-{% endfor %}
-</ul>
-
   <div class="posts">
+    <ul class="">
+  {% for tag in post.tags %}
+    <li><a href="/tags#{{ tag }}" class="">{{ tag }}</a></li>
+  {% endfor %}
+  </ul>
     {% for post in site.posts %}
     <div class="post-teaser">
 
