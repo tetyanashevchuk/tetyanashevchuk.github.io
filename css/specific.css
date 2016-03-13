@@ -6,11 +6,17 @@
   padding: 2% 2%;
 }
 
+.recent-posts-title {
+  padding: 2px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 1.35em;
+}
+
 .recent-posts {
   padding: 30px;
   margin-bottom: 2em;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 1.25em;
+  font-size: 1.20em;
 }
 
 .post-teaser {
