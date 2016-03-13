@@ -103,10 +103,11 @@ a.button:hover {
   text-align: center;
   padding: 0;
   margin: 0;
-  /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 45px;
   line-height: 1.6;
-  color: #32383B;
+  color: #f5f5f5;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .img-container {
