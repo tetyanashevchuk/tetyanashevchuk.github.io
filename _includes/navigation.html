@@ -43,7 +43,42 @@
         <li class="active"><a href="{{ nav.external }}">{{ nav.title }}<span class="sr-only">(current)</span></a></li>
         {% endif %} {% endif %} {% endfor %}
       </ul>
-
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+</nav>
+<!--  sdfssssfhlksjhflsdjfhlskdjfhlksdhflksdjfh-->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      {% for nav in site.data.nav %} {% if nav.subcategories != null %}
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}{{ nav.url }}">{{ nav.title }}<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          {% for subcategory in nav.subcategories %}
+          <li><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% elsif nav.external-subcategories != null %}
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.url }}{{ nav.url }}">{{ nav.title }}<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          {% for subcategory in nav.external-subcategories  %}
+          <li><a href="{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% elsif nav.title == page.title %}
+      <li><a href="{{ nav.href }}">{{ nav.title }}</a></li>
+       {% else %} {% if nav.href %}
+      <li><a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a></li>
+      {% elsif nav.external %}
+      <li><a href="{{ nav.external }}">{{ nav.title }}</a></li>
+      {% endif %} {% endif %} {% endfor %}
+    </ul>
+  </div>
 </nav>
