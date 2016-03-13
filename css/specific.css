@@ -90,15 +90,6 @@ a.button:hover {
    left: 0;
    text-align: center;
    width: 100%;
-
-   color: #fff;
-   text-align: center;
-   padding: 0;
-   margin: 0;
-   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-   font-size: 14px;
-   line-height: 1.6;
-   color: #32383B;
 }
 
 .homeImageLink span {
