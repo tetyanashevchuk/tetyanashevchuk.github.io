@@ -1,13 +1,22 @@
 - title: "Головна"
   href: "/"
 
-- title: "Статті"
-  href: "/blog/"
-
 - title: "Педагогічний портрет"
   href: "/pedagogic_portrait/"
 
-- title: "Теги"
+- title: "Статті"
+  href: "/blog/"
+
+- title: "Система уроків"
+  href: "/tags#"
+
+- title: "Методичний вимір"
+  href: "/tags#"
+
+- title: "Вітраж позакласних робіт"
+  href: "/tags#"
+
+- title: "Я - класний керівник"
   href: "/tags#"
 
 - title: "Розробки уроків"

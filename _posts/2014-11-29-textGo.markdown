@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Go"
-tags: [language, "my literature"]
+title: "Укарїнські народні казки"
+tags: ["Система уроків", "Народна творчість"]
 date: 2014-11-29T16:44:01-08:00
 ---
 

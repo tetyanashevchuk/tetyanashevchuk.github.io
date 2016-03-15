@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Octopress 3.0 / Jekyll Basic Customization"
-tags: [justLooooongTag]
+title: "Прислів'я і приказки"
+tags: ["Система уроків", "Народна творчість"]
 date: 2014-11-28T16:44:01-08:00
 ---
 
