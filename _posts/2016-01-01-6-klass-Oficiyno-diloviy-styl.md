@@ -12,7 +12,7 @@ excerpt_separator: "<!--more-->"
 
 <!--more-->
 
-##  **<center> Хiд уроку </center>**
+## **<center> Хiд уроку </center>**
 
 ### **І. Мотивація теми і мети уроку.**
 
