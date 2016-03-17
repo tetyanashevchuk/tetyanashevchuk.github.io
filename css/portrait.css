@@ -7,3 +7,13 @@
 .epigraph p {
   margin-bottom: 0em;
 }
+
+.poem {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.poem p {
+  margin-bottom: 0em;
+}
