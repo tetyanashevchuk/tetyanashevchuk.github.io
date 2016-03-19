@@ -354,9 +354,9 @@ excerpt_separator: "<!--more-->"
 12. <center>Настане день, настане час –</center>
 <center>І розіллється знов медами</center>
 <center>Земля, що освятив Тарас</center>
-<center>Своїми *муками-ділами*,</center>
+<center>Своїми <b>муками-ділами</b>,</center>
 <center>Земля, що окрилив Тарас</center>
-<center>*Громовезвукими* словами.</center>
+<center><b>Громовезвукими</b> словами.</center>
 
 *<center>(М. Рильський).</center>*
 
@@ -437,3 +437,5 @@ excerpt_separator: "<!--more-->"
 
 **Вправа 174 або написати казку про те, як дощ хотів усім догодити,
 використовуючи складні слова.**
+
+<a class="button" href="https://drive.google.com/file/d/0ByRKCRcO5CVUdnlHa2xoUTNWams/view?usp=sharing">Завантажити роздатковий матеріал для уроку</a>
