@@ -34,7 +34,7 @@ excerpt_separator: "<!--more-->"
 **Випереджувальні завдання:** виразне читання гуморески П. Глазового «На
 ярмарку».
 
-**Епіграф: **
+**Епіграф:**
 
 <div class="epigraph">
 <p>Не намагайся бути першим,</p>
@@ -79,11 +79,11 @@ excerpt_separator: "<!--more-->"
 *(На дошці схема. Учні підійдуть і стрілочками вкажуть на свої
 очікування).*
 
-![](../postImages/UrokYarmarok/Slide1_diagram.PNG)
+![](../../../postImages/UrokYarmarok/Slide1_diagram.PNG)
 
 ###### **Слайд 2.**
 
-![](../postImages/UrokYarmarok/image2.png)
+![](../../../postImages/UrokYarmarok/image2.png)
 
 Ми повторимо, закріпимо все, що вивчили про іменник як частину мови.
 Спробуємо знаходити іменники у тексті, правильно їх записувати,
@@ -98,7 +98,7 @@ excerpt_separator: "<!--more-->"
 
 ###### **Слайд 3.**
 
-![](../postImages/UrokYarmarok/image3.png)
+![](../../../postImages/UrokYarmarok/image3.png)
 
 -Що ж означає слово *ярмарок*?У цьому нам допоможуть юні мовознавці, які
 попрацювали зі словниками і відшукали відповідні словникові статті.
@@ -116,7 +116,7 @@ excerpt_separator: "<!--more-->"
 описав Остап Вишня в усмішці «Ярмарок» ми зараз почуємо.
 
 ###### **Слайд 4.**
-![](../postImages/UrokYarmarok/image4.png)
+![](../../../postImages/UrokYarmarok/image4.png)
 
 *(Звучить аудіозапис уривка)*
 
@@ -124,13 +124,13 @@ excerpt_separator: "<!--more-->"
 -   А чому до *ярмарку*, а не до *ярмарка*?
 
 ###### **Слайд 5.**
-![](../postImages/UrokYarmarok/image5.png)
+![](../../../postImages/UrokYarmarok/image5.png)
 
 *3. (На дошку спроектовано діалог-гумореску. Двоє учнів читають її за
 особами):*
 
 ###### **Слайд 6.**
-![](../postImages/UrokYarmarok/image6.png)
+![](../../../postImages/UrokYarmarok/image6.png)
 
 *(Запишіть останнє речення, визначте власні та загальні назви, поясніть їх
 правопис).*
@@ -146,12 +146,12 @@ excerpt_separator: "<!--more-->"
 і все роздивимося…
 
 ###### **Слайд 7.**
-![](../postImages/UrokYarmarok/image7.png)
+![](../../../postImages/UrokYarmarok/image7.png)
 
 #### **Лавка «Реклама».**
 
 ###### **Слайд 8.**
-![](../postImages/UrokYarmarok/image8.png)
+![](../../../postImages/UrokYarmarok/image8.png)
 
 1.  Бабуся проганяє осу:
 
@@ -178,7 +178,7 @@ excerpt_separator: "<!--more-->"
 #### **Лавка «Аукціон знань».**
 
 ###### **Слайд 9.**
-![](../postImages/UrokYarmarok/image9.png)
+![](../../../postImages/UrokYarmarok/image9.png)
 
 ##### **«Мікрофон»:**
 
@@ -195,7 +195,7 @@ excerpt_separator: "<!--more-->"
 #### **Лавка «Кіт у мішку».**
 
 ###### **Слайд 10.**
-![](../postImages/UrokYarmarok/image10.png)
+![](../../../postImages/UrokYarmarok/image10.png)
 
 ##### **Робота в групах:**
 
@@ -205,7 +205,7 @@ excerpt_separator: "<!--more-->"
 #### **Лавка «Українські обереги».**
 
 ###### **Слайд 11.**
-![](../postImages/UrokYarmarok/image11.png)
+![](../../../postImages/UrokYarmarok/image11.png)
 
 ##### 1.  **Слово вчителя.**
 
@@ -227,7 +227,7 @@ excerpt_separator: "<!--more-->"
 #### **Лавка «Здоров’я».**
 
 ###### **Слайд 12.**
-![](../postImages/UrokYarmarok/image12.png)
+![](../../../postImages/UrokYarmarok/image12.png)
 
 #### **Фізкультхвилинка**
 
@@ -249,12 +249,12 @@ excerpt_separator: "<!--more-->"
 Зелена ялинка вкрилась пухнастим снігом.
 
 ###### **Слайд 13.**
-![](../postImages/UrokYarmarok/image13.png)
+![](../../../postImages/UrokYarmarok/image13.png)
 
 #### **Лавка «Народна мудрість»**
 
 ###### **Слайд 14.**
-![](../postImages/UrokYarmarok/image13.png)
+![](../../../postImages/UrokYarmarok/image13.png)
 
 #### **Робота з індивідуальними картками.**
 
@@ -314,7 +314,7 @@ excerpt_separator: "<!--more-->"
 
 ###### **Слайд 15.**
 
-![](../postImages/UrokYarmarok/image15.png)
+![](../../../postImages/UrokYarmarok/image15.png)
 
 #### **Лавка «Хатинка-веселинка»**
 
@@ -346,7 +346,7 @@ excerpt_separator: "<!--more-->"
 <center>Маю вже… дружину.</center>
 
 ###### **Слайд 16.**
-![](../postImages/UrokYarmarok/image16.png)
+![](../../../postImages/UrokYarmarok/image16.png)
 
 1.  *(Звучить українська народна пісня «Від Києва до Лубен»).*
 
@@ -355,7 +355,7 @@ excerpt_separator: "<!--more-->"
 #### **Лавка «Контрольна вага»**
 
 ###### **Слайд 17.**
-![](../postImages/UrokYarmarok/image17.png)
+![](../../../postImages/UrokYarmarok/image17.png)
 
 На наступному уроці у вас кон­трольна робота з теми «Іменник». Купимо 6
 питань, за допомогою яких ми дізнаємося, з якими знан­нями ви підійшли
@@ -382,7 +382,7 @@ excerpt_separator: "<!--more-->"
 іменник розберіть як частину мови.
 
 ###### **Слайд 18.**
-![](../postImages/UrokYarmarok/image18.png)
+![](../../../postImages/UrokYarmarok/image18.png)
 
 ### **Підсумок уроку.**
 
@@ -423,4 +423,4 @@ excerpt_separator: "<!--more-->"
 отримайте календарики на наступний рік.
 
 ###### **Слайд 19.**
-![](../postImages/UrokYarmarok/image19.png)
+![](../../../postImages/UrokYarmarok/image19.png)
