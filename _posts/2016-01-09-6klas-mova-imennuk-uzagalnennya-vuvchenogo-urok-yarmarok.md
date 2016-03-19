@@ -422,3 +422,6 @@ excerpt_separator: "<!--more-->"
 
 ###### **Слайд 19.**
 ![](../../../postImages/UrokYarmarok/image19.png)
+
+
+<a class="button" href="../../../postImages/UrokYarmarok/Preesntation.pptx">Завантажити презентацію для уроку</a>
