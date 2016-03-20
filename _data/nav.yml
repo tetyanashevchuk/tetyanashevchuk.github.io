@@ -10,6 +10,13 @@
 - title: "Система уроків"
   href: "/tags#"
 
+- title: "Розробки уроків"
+  subcategories:
+    - subtitle: "Українська мова"
+      subhref: "/documentation/sass.html"
+    - subtitle: "Українська література"
+      subhref: "/documentation/grid.html"
+
 - title: "Методичний вимір"
   href: "/tags#"
 
@@ -18,10 +25,3 @@
 
 - title: "Я - класний керівник"
   href: "/tags#"
-
-- title: "Розробки уроків"
-  subcategories:
-    - subtitle: "Українська мова"
-      subhref: "/documentation/sass.html"
-    - subtitle: "Українська література"
-      subhref: "/documentation/grid.html"
