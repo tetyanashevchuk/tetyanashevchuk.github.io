@@ -13,6 +13,7 @@ description: List of articles and posts by tags.
       <h5>present</h5>
       {% assign tag_present = false %}
       {% for tag in post.tags %}
+        <p>{{post.title}} - {{ tag }}</p>
         {% if tag == "Літературне свято" %}
           <h6>tag present</h6>
           {% assign tag_present = true %}
