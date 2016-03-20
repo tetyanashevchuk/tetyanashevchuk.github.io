@@ -3,15 +3,18 @@ layout: page
 description: List of articles and posts by tags.
 ---
 
-{% assign methodic_orienter = "Методичні орієнтири123" %}
+{% assign section_name = "Методичні орієнтири" %}
+{% assign first_subsection = "Виступ" %}
+{% assign second_subsection = "Майстер-клас" %}
+
 <!-- Posts by Tag -->
 <div class="post-teaser">
-    <h2 >{{ methodic_orienter }}</h2>
+    <h2 >{{ section_name }}</h2>
 
     <!-- Виступ -->
     <h3>Виступ</h3>
-    {% for post in site.tags[methodic_orienter] %}{% if post.title != null %}
-      {% if post.tags contains "Виступ" %}
+    {% for post in site.tags[section_name] %}{% if post.title != null %}
+      {% if post.tags contains first_subsection %}
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-10">
@@ -28,8 +31,8 @@ description: List of articles and posts by tags.
 
     <!-- Майстер-клас -->
     <h3>Майтер-клас</h3>
-    {% for post in site.tags["Методичні орієнтири"] %}{% if post.title != null %}
-      {% if post.tags contains "Майстер-клас" %}
+    {% for post in site.tags[section_name] %}{% if post.title != null %}
+      {% if post.tags contains second_subsection %}
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-10">
