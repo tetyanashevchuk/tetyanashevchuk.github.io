@@ -127,6 +127,6 @@ body {
     text-transform: uppercase;
 }
 
-.btn-success a:hover {
+a.button:hover {
   background-color: #449D44;
 }
