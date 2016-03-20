@@ -17,7 +17,7 @@ description: List of articles and posts by tags.
               <a href="{{ post.url }}">{{ post.title }}</a>
             </div>
             <div class="col-sm-2">
-              {{ post.date | date_to_string }}
+              {{ post.date |  date: "%d.%m.%Y" }}
             </div>
           </div>
           <!-- <div style="clear: both;"></div> -->
