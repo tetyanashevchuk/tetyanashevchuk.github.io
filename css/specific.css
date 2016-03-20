@@ -133,3 +133,9 @@ a.button:hover {
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
     border: none;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1024px;
+  }
+}
