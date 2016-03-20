@@ -3,13 +3,14 @@ layout: page
 description: List of articles and posts by tags.
 ---
 
+{% assign methodic_orienter = "Методичні орієнтири" %}
 <!-- Posts by Tag -->
 <div class="post-teaser">
-    <h2 >Методичні орієнтири</h2>
+    <h2 >{{ methodic_orienter }}</h2>
 
     <!-- Виступ -->
     <h3>Виступ</h3>
-    {% for post in site.tags["Методичні орієнтири"] %}{% if post.title != null %}
+    {% for post in site.tags[methodic_orienter] %}{% if post.title != null %}
       {% if post.tags contains "Виступ" %}
         <div class="container-fluid">
           <div class="row">
