@@ -5,13 +5,12 @@ description: List of articles and posts by tags.
 
 <!-- Posts by Tag -->
 <div class="post-teaser">
-  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
     <h2 >Методичні орієнтири</h2>
 
     <!-- Літературне свято -->
     <h3>Літературне свято</h3>
     {% for post in site.tags["Методичні орієнтири"] %}{% if post.title != null %}
+      <h6>present</h6>
       {% if post.tags contains "Літературне свято" %}
         <div class="container-fluid">
           <div class="row">
@@ -44,6 +43,4 @@ description: List of articles and posts by tags.
         </div>
       {% endif %}
     {% endif %}{% endfor %}
-
-  {% endunless %}{% endfor %}
 </div>
