@@ -126,3 +126,7 @@ body {
     margin: 0;
     text-transform: uppercase;
 }
+
+.btn-success a:hover {
+  background-color: #449D44;
+}
