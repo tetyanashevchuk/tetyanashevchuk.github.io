@@ -128,9 +128,3 @@ a.button:hover {
 .post-epigraph{
      text-align: right;
 }
-
-
-/*Article header truncation for post classification*/
-. post-series-entry {
-  margin-bottom: 10px;
-}
