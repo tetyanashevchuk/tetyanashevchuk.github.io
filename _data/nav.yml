@@ -13,15 +13,15 @@
 - title: "Кращі уроки"
   subcategories:
     - subtitle: "Українська мова"
-      subhref: "/documentation/sass.html"
+      subhref: "/best-lessons/ukr-mova.html"
     - subtitle: "Українська література"
       subhref: "/documentation/grid.html"
 
 - title: "Методичні орієнтири"
   href: "/metoduchni-orienturu.html"
 
-# - title: "Творчі сходинки"
-#   href: "/tags#"
+- title: "Творчі сходинки"
+  href: "/tags#"
 
 # - title: "Творчість учнів"
 #   href: "/tags#"

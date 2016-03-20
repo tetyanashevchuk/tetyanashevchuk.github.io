@@ -1,0 +1,55 @@
+---
+layout: page
+description: List of articles and posts by tags.
+permalink: /best-lessons/ukr-mova.html
+---
+
+{% assign section_name = "Нестандартні уроки" %}
+{% assign subject = "Українська мова" %}
+
+{% assign klass_6 = "6 клас" %}
+{% assign klass_7 = "7 клас" %}
+
+<!-- Posts by Tag -->
+<div class="post-teaser">
+    <h2 >{{ section_name }}</h2>
+
+    <h3>{{subject}}</h3>
+
+<!-- Українська мова - 6 клас -->
+    <h4>{{klass_6}}</h4>
+    {% for post in site.tags[section_name] %}{% if post.title != null %}
+      {% if post.tags contains subject %} {% if post.tags contains klass_6 %}
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-10">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+            <div class="col-sm-2">
+              {{ post.date |  date: "%d.%m.%Y" }}
+            </div>
+          </div>
+          <!-- <div style="clear: both;"></div> -->
+        </div>
+      {% endif %}{% endif %}
+    {% endif %}{% endfor %}
+
+    <!-- Українська мова - 7 клас -->
+        <h4>{{klass_7}}</h4>
+        {% for post in site.tags[section_name] %}{% if post.title != null %}
+          {% if post.tags contains subject %} {% if post.tags contains klass_7 %}
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-10">
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </div>
+                <div class="col-sm-2">
+                  {{ post.date |  date: "%d.%m.%Y" }}
+                </div>
+              </div>
+              <!-- <div style="clear: both;"></div> -->
+            </div>
+          {% endif %}{% endif %}
+        {% endif %}{% endfor %}
+
+</div>
