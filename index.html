@@ -1,26 +1,37 @@
 ---
-layout: default
-title: home
+layout: page
+permalink: /blog/
 ---
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8 main-page-content">
-      <img src="/images/main_page/portrait.jpg" align="left" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+
+<div class="home">
+  <div class="posts">
+    <!-- <ul class="">
+  {% for tag in post.tags %}
+    <li><a href="/tags#{{ tag }}" class="">{{ tag }}</a></li>
+  {% endfor %}
+  </ul> -->
+    {% for post in site.posts %}
+    <div class="my-post-teaser">
+
+      <header>
+        <h1>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h1>
+
+        <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      </header>
+      <ul class="tags">
+        {% for tag in post.tags %}
+          <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
+      <div class="excerpt">
+        {{ post.excerpt }}
+
+        <a class="button" href="{{ post.url | prepend: site.baseurl }}">{{ site.theme.str_continue_reading }}</a>
+      </div>
+
     </div>
-    <div class="col-sm-4">
-      {% include asides/recent_posts.html %}
-    </div>
+    {% endfor %}
   </div>
 </div>
