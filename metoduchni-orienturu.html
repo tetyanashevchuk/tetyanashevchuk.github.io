@@ -1,0 +1,49 @@
+---
+layout: page
+description: List of articles and posts by tags.
+---
+
+<!-- Posts by Tag -->
+<div class="post-teaser">
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
+    <h2 >Методичні орієнтири</h2>
+
+    <!-- Літературне свято -->
+    <h3>Літературне свято</h3>
+    {% for post in site.tags["Методичні орієнтири"] %}{% if post.title != null %}
+      {% if post.tags contains "Літературне свято" %}
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-10">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+            <div class="col-sm-2">
+              {{ post.date | date_to_string }}
+            </div>
+          </div>
+          <!-- <div style="clear: both;"></div> -->
+        </div>
+      {% endif %}
+    {% endif %}{% endfor %}
+
+    <!-- Мовне свято -->
+    <h3>Мовне свято</h3>
+    {% for post in site.tags["Методичні орієнтири"] %}{% if post.title != null %}
+      {% if post.tags contains "Мовне свято" %}
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-10">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </div>
+            <div class="col-sm-2">
+              {{ post.date | date_to_string }}
+            </div>
+          </div>
+          <!-- <div style="clear: both;"></div> -->
+        </div>
+      {% endif %}
+    {% endif %}{% endfor %}
+
+  {% endunless %}{% endfor %}
+</div>
