@@ -128,3 +128,13 @@ a.button:hover {
 .post-epigraph{
      text-align: right;
 }
+
+
+/*Article header truncation for post classification*/
+. article-series-header {
+  float: left;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
