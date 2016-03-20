@@ -119,7 +119,7 @@ body {
     background: url("../images/background.png") repeat;
 }
 
-.meta {
+.post-meta {
     color: rgba(20, 20, 20, 0.75);
     font-size: 0.9em;
     letter-spacing: 0.1em;
