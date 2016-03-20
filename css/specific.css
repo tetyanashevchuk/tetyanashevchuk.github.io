@@ -131,8 +131,3 @@ body {
 a.button:hover {
   background-color: #449D44;
 }
-
-/*link color from bootstrap*/
-h1 a {
-    color: #337ab7;
-}
