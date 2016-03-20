@@ -17,10 +17,6 @@ header_xl: images/banner-xl.jpg
 
 excerpt_separator: "<!--more-->"
 
-# navbar sections
-metodic_orienter: "Методичні орієнтири"
-
-
 destination: _site
 #permalink: /blog/:year/:title
 paginate: 2

@@ -9,7 +9,7 @@ description: List of articles and posts by tags.
 
     <!-- Виступ -->
     <h3>Виступ</h3>
-    {% for post in site.tags[ {{ site.methodic_orienter }} ] %}{% if post.title != null %}
+    {% for post in site.tags["Методичні орієнтири"] %}{% if post.title != null %}
       {% if post.tags contains "Виступ" %}
         <div class="container-fluid">
           <div class="row">
