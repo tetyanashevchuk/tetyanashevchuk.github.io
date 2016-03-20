@@ -78,7 +78,7 @@
   }
 }
 
-.button {
+/*.button {
   border-radius: 0.3em;
   border: 1px solid;
   display: inline-block;
@@ -89,7 +89,7 @@ a.button:hover {
   background: #5291AA;
   color: #f2f2f2;
   text-decoration: none;
-}
+}*/
 
 /*header image*/
 .homeImageLink {
