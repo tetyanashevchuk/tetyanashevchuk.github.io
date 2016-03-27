@@ -1078,4 +1078,4 @@ VI. До якого типу зв'язного мовлення належить
 
 ## **Сітка правильних відповідей**
 
-![](../../../postImages/lingvistuka-tekstu/R3-pic3.jpg)
+![](../../../postImages/lingvistuka-tekstu/R3-pic4.jpg)
