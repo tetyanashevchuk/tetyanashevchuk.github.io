@@ -13,7 +13,7 @@ excerpt_separator: "<!--more-->"
         <div class="row">
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/1.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/1.jpg" alt="">
                 </a>
             </div>
