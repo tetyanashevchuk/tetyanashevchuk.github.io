@@ -131,3 +131,7 @@ body {
 a.button:hover {
   background-color: #449D44;
 }
+
+.thumb {
+    margin-bottom: 30px;
+}
