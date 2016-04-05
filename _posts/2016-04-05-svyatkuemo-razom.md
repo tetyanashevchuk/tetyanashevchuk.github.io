@@ -18,92 +18,92 @@ excerpt_separator: "<!--more-->"
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/2.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/2.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/3.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/3.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/4.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/4.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/5.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/5.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/6.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/6.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/7.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/7.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/8.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/8.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/9.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/9.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/10.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/10.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/11.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/11.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/12.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/12.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/13.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/13.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/14.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/14.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/15.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/15.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/16.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/16.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/17.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/17.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/18.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/18.jpg" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="../../../images/svyatkuemo-razom/19.jpg">
                     <img class="img-responsive" src="../../../images/svyatkuemo-razom/19.jpg" alt="">
                 </a>
             </div>
